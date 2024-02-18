@@ -29,10 +29,5 @@ class Migration(migrations.Migration):
             name='mess_option',
             field=models.CharField(choices=[('mess1', 'Mess1'), ('mess2', 'Mess2')], default='mess2', max_length=20),
         ),
-        migrations.DeleteModel(
-            name='Nonveg_data',
-        ),
-        migrations.DeleteModel(
-            name='Nonveg_menu',
-        ),
+        
     ]
